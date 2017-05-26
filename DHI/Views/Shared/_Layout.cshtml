@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
-    
+
     <meta name="description" content="ddddddddddddddddddddddddddddddddddddddddddddddddddddddddd">
     <link rel="canonical" href="http://distincthomeinspectionllc.com/">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -392,7 +392,7 @@
         html body .mobile_nav ul#mobile_menu li a {
         }
     </style>
-<style id="theme-customizer-css">
+    <style id="theme-customizer-css">
         .et_pb_section {
             padding: 54px 0;
         }
@@ -432,7 +432,7 @@
             }
 
         .et_pb_section_0 {
-            background-image: url(http://distincthomeinspectionllc.com/images/homepageHouse.jpg);
+            background-image: url(/content/images/banner.png);
         }
 
             .et_pb_section_0.et_pb_section {
@@ -517,21 +517,90 @@
         <div id="et-main-area">
             <div id="main-content">
                 @RenderBody()
-            </div>
-            <footer id="main-footer">
-                <div id="footer-bottom">
-                    <div class="container clearfix">
-                        <p id="footer-info">Copyright © 2017 <a href="http://distincthomeinspectionllc.com/">Distince Home Inspection </a></p>
-                    </div>
+
+                <div id="contactbanner" class="et_pb_section  et_pb_section_5 et_pb_with_background et_section_regular">
+
+                    <div class=" et_pb_row et_pb_row_5">
+
+                        <div class="et_pb_column et_pb_column_2_3  et_pb_column_7">
+
+                            <div id="contacttrio2" class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_8">
+                                <p style="text-align: left;"></p>
+                                <div class="ezcol ezcol-four-fifth ezcol-last">
+                                    <h2 style="text-align: left;">CONTACT US</h2>
+
+                                    <p style="text-align: left;">
+                                        Kyle Moseley - Licensed Home Inspector <br />
+                                        <strong>Alabama License #HI-4160</strong>
+                                    </p><p style="text-align: left;">
+                                    </p>
+                                </div>
+                                <div class="ezcol-divider"></div>
+                                <p style="text-align: center;">&nbsp;</p>
+
+
+                            </div> <!-- .et_pb_text -->
+                            <div id="contacttrio" class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_9">
+
+                                <p style="text-align: center;"></p>
+                                <div class="ezcol ezcol-one-third">
+                                    <h3 style="text-align: center;">Phone</h3>
+                                    <p style="text-align: center;"><a href="tel:256-749-5340" target="_blank">256-749-5340</a></p>
+                                    <p style="text-align: center;"></p>
+                                </div>
+                                <div class="ezcol ezcol-one-third">
+                                    <h3 style="text-align: center;">Email</h3>
+                                    <p style="text-align: center;"><a href="mailto:distincthomeinspectionllc@gmail.com" target="_blank">CLICK HERE</a></p>
+                                    <p style="text-align: center;"></p>
+                                </div>
+                                <div class="ezcol-divider"></div>
+                                <p style="text-align: center;">&nbsp;</p>
+
+
+                            </div> <!-- .et_pb_text -->
+                        </div> <!-- .et_pb_column -->
+                    </div> <!-- .et_pb_row -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
-            </footer>
+                <footer id="main-footer">
+                    <div id="footer-bottom">
+                        <div class="container clearfix">
+                            <p id="footer-info">Copyright © 2017 <a href="http://distincthomeinspectionllc.com/">Distince Home Inspection </a></p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
         </div>
-    </div>
 
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
 
 </body>
 </html>

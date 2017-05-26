@@ -213,17 +213,41 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="content\bootstrap.css" />
+    <Content Include="content\bootstrap.min.css" />
+    <Content Include="content\images\banner.png" />
+    <Content Include="content\images\IMG_0065-1.jpg" />
+    <Content Include="content\images\IMG_0074-1.jpg" />
+    <Content Include="content\images\IMG_0084-1.jpg" />
+    <Content Include="content\images\IMG_0100.JPG" />
+    <Content Include="content\images\IMG_0102.JPG" />
+    <Content Include="content\images\IMG_0109.JPG" />
+    <Content Include="content\images\IMG_2330.jpg" />
+    <Content Include="content\images\IMG_2508.jpg" />
+    <Content Include="content\images\IMG_2730.jpg" />
+    <Content Include="content\images\IMG_2731.jpg" />
+    <Content Include="content\images\IMG_2739.jpg" />
+    <Content Include="content\images\IMG_2793.jpg" />
+    <Content Include="content\images\IMG_2797.jpg" />
+    <Content Include="content\images\IMG_2799.jpg" />
+    <Content Include="content\images\IMG_2884.jpg" />
+    <Content Include="content\images\IMG_2913.JPG" />
+    <Content Include="content\images\IMG_2938.jpg" />
+    <Content Include="content\images\IMG_3039.jpg" />
+    <Content Include="content\images\IMG_3042.jpg" />
+    <Content Include="content\images\IMG_3043.jpg" />
+    <Content Include="content\images\IMG_3044.jpg" />
+    <Content Include="content\images\IMG_3047.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\GoDaddy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
