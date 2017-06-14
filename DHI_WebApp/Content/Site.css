@@ -1,0 +1,304 @@
+﻿body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+	white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+	max-width: 280px;
+}
+
+h1 {
+	color: white;
+}
+
+.contactFooter {
+	text-align: center;
+	background-color: #272424;
+	color: white;
+	padding: 5px;
+	font-family: "Open Sans",Arial,sans-serif;
+    padding: 0px;
+}
+
+footer .pagerow {
+    text-align: left;
+	background-color: #2F4057;
+    font-size: 18px;
+	padding: 15px;
+	font-family: "Open Sans",Arial,sans-serif;
+}
+.reviews {
+    font-style: italic;
+	color: white;
+}
+
+
+footer {
+	text-align: center;
+	background-color: #2F4057;
+	color: white;
+	padding-top: 0px;
+	padding-bottom: 1px;
+	font-family: "Open Sans",Arial,sans-serif;
+}
+    
+footer p {
+    padding-top: 10px
+    }
+
+.subheader H1{
+   background-color: #EA632D;
+}
+
+.dhi_logo {
+   background: url(content/images/logo.png) no-repeat;
+     display: block; 
+}
+
+.dhi_navbar div {
+	text-align: center;
+	background-color: #2F4057;
+	color: white !important;
+	font-family: "Open Sans",Arial,sans-serif;
+}
+
+.dhi_navbar ul {
+	text-align: center
+}
+
+
+
+.dhi_top img {
+    height: 120px
+}
+
+.dhi_top {
+    background-color: white !important;
+    width: 100%
+}
+
+
+.flag-background {
+background-image: url("images/flag.jpg");
+padding: 0px;
+height: 100%
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#booktitle.et_pb_text a {
+							background-color: #2F4057;
+							box-shadow: rgb(0, 0, 0) 1px 1px 4px;
+							color: rgb(255, 255, 255);
+							display: inline-block;
+							font-size: 16px;
+							margin-top: 15px;
+							padding-bottom: 10px;
+							padding-left: 15px;
+							padding-right: 15px;
+							padding-top: 10px;
+							width: 185px !important;
+						}
+
+							#booktitle.et_pb_text a:hover {
+								background-color: rgb(0, 0, 0) !important;
+							}
+
+						#booktitle.et_pb_text {
+							background-color: rgba(0,0,0,0.8);
+							border-bottom-style: none !important;
+							border-color: rgb(0, 0, 0);
+							border-style: none;
+							border-width: 1px;
+							box-shadow: rgba(0, 0, 0,0.6) 1px 1px 4px;
+							display: inline-block;
+							float: left;
+							margin-top: 27px;
+							padding-bottom: 20px;
+							padding-left: 25px;
+							padding-right: 25px;
+							padding-top: 20px;
+						}
+
+							#booktitle.et_pb_text h3 {
+								color: rgb(255, 255, 255);
+								font-family: Fjalla One;
+								font-size: 32px;
+								margin-top: 0px;
+								text-shadow: none;
+							}
+
+							#booktitle.et_pb_text p {
+								color: rgb(255, 255, 255);
+								font-size: 15px;
+								padding-bottom: 0px;
+							}
+													#contacttrio2.et_pb_text h2 {
+							color: #2F4057;
+						}
+
+
+						#contacttrio2.et_pb_text {
+							margin-bottom: 10px;
+							padding-top: 15px;
+						}
+
+							#contacttrio2.et_pb_text p {
+								color: rgba(255, 255, 255, 0.901961);
+							}
+
+						#contacttrio.et_pb_text a {
+							background-color: #2F4057;
+							border-radius: 5px;
+							border-style: solid;
+							border-width: 2px !important;
+							color: rgb(255, 255, 255);
+							display: inline-block;
+							font-size: 14px;
+							padding-bottom: 10px;
+							padding-left: 15px;
+							padding-right: 15px;
+							padding-top: 10px;
+						}
+
+							#contacttrio.et_pb_text a:hover {
+								background-color: rgba(167,76,71,1) !important;
+							}
+
+
+
+						#contacttrio.et_pb_text h3 {
+							color: #2F4057;
+							font-size: 18px;
+							font-weight: bold;
+							text-transform: uppercase;
+						}
+
+						#contacttrio.et_pb_text p {
+							color: rgb(255, 255, 255);
+							font-size: 16px;
+							padding-bottom: 10px;
+						}
+
+						#hometext1.et_pb_text {
+							background-color: rgba(255,255,255,0.8);
+							border-bottom-color: #2F4057;
+							border-bottom-style: none;
+							border-bottom-width: 2px;
+							box-shadow: rgbA(0, 0, 0,0.6) 1px 1px 4px;
+							display: inline-block;
+							float: left;
+							margin-top: 175px;
+							padding-bottom: 5px;
+							padding-left: 22%;
+							padding-right: 15px;
+							padding-top: 10px;
+						}
+
+							#hometext1.et_pb_text h1 {
+								font-family: Fjalla One;
+								font-size: 42px;
+								text-align: left !important;
+							}
+
+							#hometext1.et_pb_text h3 {
+								font-family: Open Sans;
+								font-size: 32px;
+								font-weight: normal;
+								padding-bottom: 5px;
+								text-align: left !important;
+							}
+
+							#hometext1.et_pb_text img:not(.wp-smiley) {
+								width: 85px;
+							}
+
+
+						#hometexter2.et_pb_text {
+							color: rgb(255, 255, 255);
+							font-size: 16px;
+							line-height: 26px;
+							margin-top: 2px;
+							text-align: center;
+						}
+
+							#hometexter2.et_pb_text p {
+								color: rgb(255, 255, 255);
+								font-size: 16px;
+								line-height: 26px;
+							}
+
+
+
+
+
+						#hometexter5.et_pb_text a {
+							background-color: #2F4057;
+							box-shadow: rgb(0, 0, 0) 1px 1px 4px;
+							color: rgb(255, 255, 255);
+							display: inline-block;
+							padding-bottom: 10px;
+							padding-left: 15px;
+							padding-right: 15px;
+							padding-top: 10px;
+						}
+
+							#hometexter5.et_pb_text a:hover {
+								background-color: rgb(167, 76, 71) !important;
+							}
+
+						#hometexter5.et_pb_text h3 {
+							color: rgb(255, 255, 255);
+							font-weight: bold !important;
+						}
+
+
+
+						#hometexter5.et_pb_text p {
+							color: rgb(255, 255, 255);
+							font-size: 16px;
+							line-height: 26px;
+						}
+
+						#hometitlenew.et_pb_text h1 {
+							color: rgba(255, 255, 255,1);
+							font-size: 38px;
+						}
+
+						#hometitlenew.et_pb_text {
+							margin-bottom: 10px;
+						}
+
+						#homewhiteitle.et_pb_text h1 {
+							font-size: 42px;
+						}
+
+						#homewhiteitle.et_pb_text {
+							margin-bottom: 0px;
+						}
