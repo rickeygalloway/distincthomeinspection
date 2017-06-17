@@ -14,12 +14,22 @@ textarea {
     max-width: 280px;
 }
 
+.headerMenu a {
+    color: #efefef !important;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
+.headerMenu a:hover {
+    color: silver !important;
+}
 
 .contactFooter {
     text-align: center;
     background-color: #272424;
-    color: white;
+    color: #efefef;
     padding: 5px;
     font-family: "Open Sans",Arial,sans-serif;
     padding: 0px;
@@ -35,13 +45,13 @@ footer .pagerow {
 
 .reviews {
     font-style: italic;
-    color: white;
+    color: #efefef;
 }
 
 footer {
     text-align: center;
     background-color: #2F4057;
-    color: white;
+    color: #efefef;
     padding-top: 0px;
     padding-bottom: 1px;
     font-family: "Open Sans",Arial,sans-serif;
@@ -57,7 +67,7 @@ footer {
 
 
 h1 {
-    color: white;
+    color: #efefef;
     background-color: #c46200;
     font-family: "Open Sans",Arial,sans-serif;
     font-weight: 600;
@@ -66,7 +76,7 @@ h1 {
 .dhi_navbar div {
     text-align: center;
     background-color: #2F4057;
-    color: white !important;
+    color: #efefef !important;
     font-family: "Open Sans",Arial,sans-serif;
 }
 
@@ -81,7 +91,7 @@ h1 {
 }
 
 .dhi_top {
-    background-color: white !important;
+    background-color: #efefef !important;
     width: 100%;
 }
 
