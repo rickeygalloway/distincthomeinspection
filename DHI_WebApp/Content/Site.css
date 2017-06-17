@@ -8,12 +8,13 @@
     padding-right: 15px;
 }
 
-
 input,
 select,
 textarea {
     max-width: 280px;
 }
+
+
 
 .contactFooter {
     text-align: center;
@@ -99,14 +100,6 @@ img.siteImage {
     border-radius: 8px;
 }
 
-.sectionBreaker {
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid #000;
-    line-height: 0.1em;
-    margin: 10px 0 20px;
-}
-
 h2 span {
     font-family: "Open Sans",Arial,sans-serif;
     font-size: xx-large;
@@ -167,10 +160,10 @@ div.polaroidContainer {
     padding-top: 10px;
 }
 
-#contactduo.et_pb_text a:hover {
-    background-color: #c46200 !important;
-    text-decoration: none;
-}
+    #contactduo.et_pb_text a:hover {
+        background-color: #c46200 !important;
+        text-decoration: none;
+    }
 
 
 #contactduo.et_pb_text h3 {
@@ -184,4 +177,70 @@ div.polaroidContainer {
     color: rgb(255, 255, 255);
     font-size: 16px;
     padding-bottom: 10px;
+}
+
+
+
+/*Mobile*/
+@media screen and (max-width: 640px) {
+    .fullSiteOnly {
+        display: none;
+    }
+}
+
+
+.sectionBreaker {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+
+@media screen and (max-width: 640px) {
+    .sectionBreaker span{
+        white-space: nowrap;
+        color: #495E7B;
+        font-size: .80em;
+        font-weight: normal;
+    }
+    .sectionBreaker {
+        border: none;
+    }
+}
+
+
+.servicesImage {
+    height: 150px;
+}
+
+
+@media screen and (max-width: 640px) {
+    .servicesImage{
+        height: 90px
+            
+    }
+}
+
+.homePageBanner {
+    background-image: url(/content/images/banner2.png);
+    background-size:  cover
+}
+
+@media screen and (max-width: 640px) {
+    .homePageBanner{
+        height: 90px
+            
+    }
+}
+
+.contactDiv {
+min-height: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+    .contactDiv{
+        min-height: 200px;            
+    }
 }
