@@ -63,14 +63,15 @@ footer {
 
 .subheader {
     background-color: #c46200;
+    margin-top: 150px;
 }
-
 
 h1 {
     color: #efefef;
     background-color: #c46200;
     font-family: "Open Sans",Arial,sans-serif;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 30px;
 }
 
 .dhi_navbar div {
@@ -84,17 +85,43 @@ h1 {
     text-align: center;
 }
 
+.dhi_top_row img {
+    height: 170px;
+}
 
-
-.dhi_top img {
-    height: 120px;
+.dhi_top_row {
+    background-color: white !important;
+    width: 100%;
+    padding: 0px;
 }
 
 .dhi_top {
     background-color: white !important;
-    width: 100%;
+    height: 170px;
+    text-align: center;
 }
 
+    .dhi_top div {
+        text-align: center;
+    }
+
+.headerBorder {
+    background-color: #2F4057 !important;
+    height: 88px;
+    padding: 3px;
+    width: 300px;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.headerInside {
+    background-color: white !important;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
 
 .flag-background {
     background-image: url("images/flag.jpg");
@@ -209,12 +236,13 @@ div.polaroidContainer {
 
 
 @media screen and (max-width: 640px) {
-    .sectionBreaker span{
+    .sectionBreaker span {
         white-space: nowrap;
         color: #495E7B;
         font-size: .80em;
         font-weight: normal;
     }
+
     .sectionBreaker {
         border: none;
     }
@@ -227,30 +255,69 @@ div.polaroidContainer {
 
 
 @media screen and (max-width: 640px) {
-    .servicesImage{
-        height: 90px
-            
+    .servicesImage {
+        height: 90px;
     }
 }
 
 .homePageBanner {
     background-image: url(/content/images/banner2.png);
-    background-size:  cover
+    background-size: cover;
 }
 
-@media screen and (max-width: 640px) {
-    .homePageBanner{
-        height: 90px
-            
-    }
-}
 
 .contactDiv {
-min-height: 500px;
+    min-height: 500px;
 }
 
-@media screen and (max-width: 1000px) {
-    .contactDiv{
-        min-height: 200px;            
+@media screen and (max-width: 990px) {
+    .contactDiv {
+        min-height: 200px;
+    }
+
+    .top_left {
+        display: none;
+    }
+
+    .top_right {
+        height: 95px !important;
+    }
+
+    .dhi_top {
+        height: 120px;
+    }
+
+        .dhi_top img {
+            height: 120px;
+        }
+
+    .headerBorder {
+        background-color: #2F4057 !important;
+        height: 77px;
+        width: 280px;
+        font-family: "Open Sans",Arial,sans-serif;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    .headerInside {
+        background-color: white !important;
+        font-family: "Open Sans",Arial,sans-serif;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .homePageBanner {
+        height: 150px;
+    }
+
+    .subheader {
+        background-color: #c46200;
+        margin-top: 200px;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 20px;
     }
 }
