@@ -275,14 +275,12 @@ div.polaroidContainer {
         min-height: 200px;
     }
 
+    .top_right,
     .top_left {
         display: none;
     }
 
-    .top_right {
-        height: 95px !important;
-    }
-
+    
     .dhi_top {
         height: 120px;
     }
@@ -313,7 +311,7 @@ div.polaroidContainer {
 
     .subheader {
         background-color: #c46200;
-        margin-top: 200px;
+        margin-top: 110px;
     }
 
     h1 {
