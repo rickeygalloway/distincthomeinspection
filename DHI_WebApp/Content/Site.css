@@ -287,9 +287,9 @@ div.polaroidContainer {
         height: 120px;
     }
 
-        .dhi_top img {
-            height: 120px;
-        }
+    .dhi_top img {
+        height: 120px;
+    }
 
     .headerBorder {
         background-color: #2F4057 !important;
@@ -308,7 +308,7 @@ div.polaroidContainer {
     }
 
     .homePageBanner {
-        height: 150px;
+        height: 350px;
     }
 
     .subheader {

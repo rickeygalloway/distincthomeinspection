@@ -180,6 +180,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\banner.png" />
     <Content Include="Content\images\banner2.png" />
+    <Content Include="Content\images\DHI_logo.PNG" />
     <Content Include="Content\images\flag.jpg" />
     <Content Include="Content\images\IMG_0065-1.jpg" />
     <Content Include="Content\images\IMG_0074-1.jpg" />
