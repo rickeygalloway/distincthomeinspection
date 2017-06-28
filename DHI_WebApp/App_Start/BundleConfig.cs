@@ -20,13 +20,11 @@ namespace DHI_WebApp
 
 			bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
 					  "~/Scripts/bootstrap.js",
-					  "~/Scripts/respond.js",
-					  "~/Content/css-hero-animator/assets/lib/css3-animate-it.js"));
+					  "~/Scripts/respond.js"));
 
 			bundles.Add(new StyleBundle("~/Content/css").Include(
 					  "~/Content/bootstrap.css",
-					  "~/Content/site.css",
-					  "~/Content/css-hero-animator/assets/lib/animations.css"));
+					  "~/Content/site.css"));
 		}
 	}
 }
