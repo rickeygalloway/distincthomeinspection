@@ -167,6 +167,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Content Include="Content\css-hero-animator\assets\lib\animations.min.css" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -186,12 +187,12 @@
     <Content Include="Content\css-hero-animator\assets\chanimator-rocket-mode.js" />
     <Content Include="Content\css-hero-animator\assets\lib\animations.css" />
     <Content Include="Content\css-hero-animator\assets\lib\css3-animate-it.js" />
+    <Content Include="Content\css-hero-animator\assets\lib\css3-animate-it.min.js" />
     <Content Include="Content\images\banner.png" />
     <Content Include="Content\images\banner2.png" />
     <Content Include="Content\images\DHI_logo.PNG" />
     <Content Include="Content\images\flag.jpg" />
     <Content Include="Content\images\IMG_0065-1.jpg" />
-    <Content Include="Content\images\IMG_0074-1.jpg" />
     <Content Include="Content\images\IMG_0084-1.jpg" />
     <Content Include="Content\images\IMG_0109.JPG" />
     <Content Include="Content\images\IMG_2330.jpg" />

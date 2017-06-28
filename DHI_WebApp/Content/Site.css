@@ -274,7 +274,7 @@ div.polaroidContainer {
 
 
 .homeSlider {
-    background-color: #ffffff; 
+   background-color: rgba(255,255,255, 0.8) ; 
     opacity: 0.8 !important; 
     width: 55%; 
     min-width:400px; 
@@ -284,7 +284,7 @@ div.polaroidContainer {
 
 .homeSlider h3, h4 {
     text-align: left; 
-    font-family: "Fjalla One"
+    font-family: "Fjalla One";
     
 }
 
@@ -292,6 +292,7 @@ div.polaroidContainer {
     color: #2F4057;
     font-weight: 600;
     font-size: 40px;
+    padding-right: 10px;
     white-space: nowrap;
 }
 
