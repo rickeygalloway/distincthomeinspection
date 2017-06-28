@@ -270,6 +270,37 @@ div.polaroidContainer {
     min-height: 500px;
 }
 
+
+
+
+.homeSlider {
+    background-color: #ffffff; 
+    opacity: 0.8 !important; 
+    width: 55%; 
+    min-width:400px; 
+    float: left
+}
+
+
+.homeSlider h3, h4 {
+    text-align: left; 
+    font-family: "Fjalla One"
+    
+}
+
+.homeSlider h3 {
+    color: #2F4057;
+    font-weight: 600;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.homeSlider h4 {
+    color: #c46200; 
+    font-weight:normal; 
+    font-size: 25px;
+}
+
 @media screen and (max-width: 990px) {
     .contactDiv {
         min-height: 200px;
@@ -318,4 +349,9 @@ div.polaroidContainer {
         font-weight: 600;
         font-size: 20px;
     }
+
+    .homeSlider {
+        display: none;
+    }
 }
+

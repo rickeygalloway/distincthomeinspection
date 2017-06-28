@@ -178,6 +178,14 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css-hero-animator\assets\animator-applier.js" />
+    <Content Include="Content\css-hero-animator\assets\animator.css" />
+    <Content Include="Content\css-hero-animator\assets\animator.html" />
+    <Content Include="Content\css-hero-animator\assets\animator.js" />
+    <Content Include="Content\css-hero-animator\assets\chanimator-hover-elements.js" />
+    <Content Include="Content\css-hero-animator\assets\chanimator-rocket-mode.js" />
+    <Content Include="Content\css-hero-animator\assets\lib\animations.css" />
+    <Content Include="Content\css-hero-animator\assets\lib\css3-animate-it.js" />
     <Content Include="Content\images\banner.png" />
     <Content Include="Content\images\banner2.png" />
     <Content Include="Content\images\DHI_logo.PNG" />
@@ -219,6 +227,9 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\css-hero-animator\.DS_Store" />
+    <Content Include="Content\css-hero-animator\assets\.DS_Store" />
+    <Content Include="Content\css-hero-animator\csshero-animator-main.php" />
     <None Include="Properties\PublishProfiles\DHI.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700);
+
+html:not(#cssherohtml) #csshero-animator-trigger,
+#csshero-animator *,
+#csshero-animator{animation:none;animation-delay:0;animation-direction:normal;animation-duration:0;animation-fill-mode:none;animation-iteration-count:1;animation-name:none;animation-play-state:running;animation-timing-function:ease;backface-visibility:visible;background:0;background-clip:border-box;background-origin:padding-box;background-position-x:0;background-position-y:0;background-size:auto auto;border:0;border-width:medium;border-color:inherit;border-bottom:0;border-bottom-color:inherit;border-collapse:separate;border-image:none;border-left:0;border-left-color:inherit;border-radius:0;border-right:0;border-right-color:inherit;border-spacing:0;border-top:0;border-top-color:inherit;bottom:auto;box-shadow:none;box-sizing:content-box;caption-side:top;clear:none;clip:auto;color:inherit;columns:auto;column-count:auto;column-fill:balance;column-gap:normal;column-rule:medium none currentColor;column-rule-color:currentColor;column-rule-style:none;column-rule-width:none;column-span:1;column-width:auto;content:normal;counter-increment:none;counter-reset:none;cursor:auto;direction:ltr;display:inline;empty-cells:show;float:none;font:400;font-family:inherit;font-size:medium;font-style:normal;font-variant:normal;font-weight:400;height:auto;hyphens:none;left:auto;letter-spacing:normal;line-height:normal;list-style:disc;margin:0;max-height:none;max-width:none;min-height:0;min-width:0;opacity:1;orphans:0;outline:0;outline-width:medium;overflow:visible;overflow-x:visible;overflow-y:visible;padding:0;page-break-after:auto;page-break-before:auto;page-break-inside:auto;perspective:none;perspective-origin:50% 50%;position:static;quotes:'\201C' '\201D' '\2018' '\2019';right:auto;tab-size:8;table-layout:auto;text-align:inherit;text-align-last:auto;text-decoration:none;text-decoration-color:inherit;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-shadow:none;text-transform:none;top:auto;transform:none;transform-style:flat;transition:none;transition-delay:0s;transition-duration:0s;transition-property:none;transition-timing-function:ease;unicode-bidi:normal;vertical-align:baseline;visibility:visible;white-space:normal;widows:0;width:auto;word-spacing:normal;z-index:auto;}
+
+/* THE SELECT BOXES */
+.csshero-edi-ele{height: 1px; width: 1px; background:#8F7BFF; position: absolute; z-index: 99998;font-family: 'Roboto Mono', monospace;}
+.csshero-edi-ele-label{background: transparent; height: 20px; line-height: 20px; font-size: 9px; color: white; text-overflow: ellipsis; white-space: nowrap; width: 700px;}
+.csshero-edi-ele-label > span.eclass{padding: 0 5px;float: left; display: block; margin: 0; background:#8F7BFF;width:auto; overflow:hidden;}
+
+.csshero-edi-ele.csshero-edi-ele-label.ch_is_animated:before,
+.csshero-edi-ele.ch_is_animated:not(.csshero-edi-ele-label){background:#FF5858;}
+.csshero-edi-ele.csshero-edi-ele-label.ch_is_animated:before{content:'Animated';float:left;padding: 0 5px;}
+
+
+.csshero-edi-ele-label > span.enum{background:#4D4090;width:auto;padding:0 5px;}
+.csshero-edi-ele-label > span{background: #4D4090; position: relative; display: block; float: left;}
+.csshero-edi-ele.csshero-edi-ele-sec{border: 1px dashed #4D4090;background:transparent; z-index:99996;}
+
+#csshero-animator,
+html:not(#cssherohtml) #csshero-animator-trigger{position:fixed;z-index:99999999;top:20px;left:20px;width:40px;height:40px;}
+
+#csshero-animator{display: none;width:300px;height:auto!important;background:#242A2E;padding-bottom:5px;border-radius:3px;overflow:hidden;}
+#csshero-animator section{padding:10px;display:block;float:left;width:100%;border-top:1px solid rgba(255,255,255,.1);border-bottom:1px solid rgba(0,0,0,.3);}
+#csshero-animator-logo{display:block;}
+#csshero-animator-logo,
+#csshero-animator-logo svg{cursor:move;}
+#csshero-animator section.chanimator_logo{padding: 0 0 0 10px;background:rgba(0,0,0,.1);height:40px;border-top:none;}
+#csshero-animator .animator-top-actions{float:right;}
+#csshero-animator .animator-top-actions > span{height:40px;width:30px;display:inline-block;opacity:.4;margin: 0 5px 0 -10px;cursor:pointer;vertical-align:top;padding-top:16px;text-align:center;}
+#csshero-animator .animator-top-actions > span .bars-wrap{position:relative;display:inline-block;width:12px;height:12px;cursor:pointer;}
+#csshero-animator .animator-top-actions > span .bars-wrap .bar{width:100%;height:1px;margin-bottom:3px;background:white;display:block;cursor:pointer;}
+#csshero-animator .animator-top-actions > span:hover{opacity:.8;}
+#csshero-animator .animator-top-actions > span:active{position:relative;top:1px;}
+
+#csshero-animator #close-animator .bars-wrap{transform: rotate(45deg);top:-2px;}
+#csshero-animator #close-animator .bars-wrap .bar-1{position:absolute;top:50%;left:0;width:13px;}
+#csshero-animator #close-animator .bars-wrap .bar-2{position:absolute;width:1px;height:13px;left:50%;top:0;}
+
+#csshero-animator section:last-of-type{border-bottom:none;}
+#csshero-animator section.one{padding:5px 10px;}
+#csshero-animator section .col{display:block;float:left;width:50%;padding-right:5px;}
+#csshero-animator section .col + .col{padding-left: 5px; padding-right:0;}
+#csshero-animator *{font-size:11px;box-sizing:border-box;font-family: 'Roboto Mono', monospace;}
+#csshero-animator input{display:block;background:#E4EAED;width:100%;padding:10px;direction:RTL}
+
+
+#csshero-animator .list-wrap{max-height:0;height:auto;display:block;overflow:hidden;border-radius:0 0 2px 2px;}
+#csshero-animator .list-wrap ul{display:block;overflow-y:scroll;width:112%;height:300px}
+#csshero-animator .col .list-wrap ul{width:100%;}
+#csshero-animator .list-wrap ul.mini{height:auto;}
+#csshero-animator section.s2,
+#csshero-animator section.s3{display:none;}
+
+#csshero-animator[data_animator_state=s2] section.s2,
+#csshero-animator[data_animator_state=s3] section.s2,
+#csshero-animator[data_animator_state=s3] section.s3{display:block;}
+
+
+
+/* RENDER OBJECT */
+#csshero-animator .csshero-animator-service-overlay section.render{padding: 10px 10px 100px 10px;}
+#csshero-animator .render > ul > li{display:block;background:#393F43;float:left;width:100%;margin-bottom:5px;overflow:hidden;}
+#csshero-animator .render .render-li{display:block;float:left;padding:5px 7px;border-right:1px solid #242A2E;width:50%;border-bottom:1px solid #242A2E;box-shadow:0px 1px 0px 0px rgba(255, 255, 255, 0.1)}
+#csshero-animator .render .render-li:nth-child(odd),
+#csshero-animator .render .render-li:last-of-type{border-right:none;}
+#csshero-animator .render .render-li:last-of-type{margin-bottom:-1px;}
+#csshero-animator .render .render-li-item,
+#csshero-animator .render .render-li-actions{width:100%;}
+#csshero-animator .render .render-item-li{position:relative;}
+#csshero-animator .render .render-item-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(36, 42, 46, .9);}
+#csshero-animator .render .render-item-overlay > div{position:absolute;text-align:center;top:50%;transform:translateY(-50%);display:block;width:100%;}
+#csshero-animator .render .render-item-overlay p,
+#csshero-animator .render .render-item-overlay span{color:#eee;margin: 0 5px;}
+#csshero-animator .render .render-item-overlay .chani-confirm{background:#FF5858;}
+#csshero-animator .render .render-li-actions{display:block;float:left;clear:both;padding:7px;border:none; border-top:1px solid #242A2E;margin-top:-1px;background:#393F43;box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1);text-align:right;}
+
+#csshero-animator .render .render-li-actions > span{padding:5px 10px;background:#8F7BFF;display:inline-block;margin-left:10px;cursor:pointer;text-shadow:none;color:white;}
+#csshero-animator .render .render-li-actions > span.d{background:#FF5858;}
+#csshero-animator .render .render-li-actions > span:active{position:relative;top:1px;}
+
+#csshero-animator .render li > span{color:#BAC0C3;display:block;}
+#csshero-animator .render li > span.render-k{color:#8F7BFF}
+
+#csshero-animator .one .list-wrap{max-height:none;}
+#csshero-animator .one .list-els{overflow:hidden;}
+#csshero-animator section.one .col{padding-left:0;padding-right:0;}
+#csshero-animator .one .chanimator_list-label{background:transparent;}
+#csshero-animator .one .list-wrap li.cur,
+#csshero-animator .one .list-wrap li:hover,
+#csshero-animator .one .list-wrap li{border:none;color:#848E94;text-align:right;padding:10px 30px 10px 0px;background:transparent;letter-spacing:-0.05em}
+#csshero-animator .one .list-wrap li:after,
+#csshero-animator .one .list-wrap li.cur:before,
+#csshero-animator .one .list-wrap li:before{content:'';position:absolute;left:auto;right:0; border-radius:20px;width:14px;height:14px;top:11px;right:4px;padding:0;text-indent:-99999px; overflow:hidden;background:transparent; border: 2px solid #848E94;}
+#csshero-animator .one .list-wrap li:after{top:14px;right:7px;width:8px;height:8px;border:none;background:#8F7BFF;opacity:0;}
+#csshero-animator .one .list-wrap li.cur:after{opacity:1}
+#csshero-animator .one .list-wrap li.cur:before{border-color:#8F7BFF}
+#csshero-animator .one .list-wrap li.cur{padding-left:0;color:white;}
+
+
+#csshero-animator .list-wrap li,
+#csshero-animator .chanimator_list-label{display:block;padding:10px;background:#E4EAED;border-bottom: 1px solid rgba(0,0,0,.05);cursor:pointer;color:#848E94;position:relative;overflow:hidden;}
+
+#csshero-animator .chanimator_list-label:before{content:'';position:absolute;top:16px;left:-15px;border: 4px solid transparent; border-top-color: white;opacity:0;}
+#csshero-animator .act .chanimator_list-label:before,
+#csshero-animator .chanimator_list-label:hover:before{opacity:.8;left:10px;}
+#csshero-animator .act .chanimator_list-label,
+#csshero-animator .chanimator_list-label:hover{padding-left:25px;}
+
+#csshero-animator .chanimator_list-label{background:#8F7BFF;color:white;border:none;}
+#csshero-animator .chanimator_list-label span{float:right;color:#242A2E;opacity:.8;cursor:pointer;}
+#csshero-animator .list-wrap li{position:relative;overflow:hidden;}
+#csshero-animator .list-wrap li:hover,
+#csshero-animator .list-wrap li.cur{background-color:#DAE1E4;color:#242A2E;}
+#csshero-animator .list-wrap li.cur{padding-left:30px;position:relative;}
+
+#csshero-animator #csshero-animator-form-feedback{display:none;}
+
+#csshero-animator .list-wrap li:before{content:'x';text-align:center;padding-top:10px;width:20px;height:100%;position:absolute;top:0;left:-20px;background:#FF5858;color:white;}
+#csshero-animator .list-wrap li.cur:before{left:0;}
+
+#csshero-animator .act .chanimator_list-label{border-radius:2px 2px 0 0;}
+#csshero-animator .act .list-wrap{max-height:400px;}
+
+/* ANIMATED ELS */
+#csshero-animator .animator-top-actions > span,
+#csshero-animator .chanimator_list-label,
+#csshero-animator .chanimator_list-label:before,
+#csshero-animator .one .list-wrap li:after,
+#csshero-animator .list-wrap li:before,
+#csshero-main-toolbar ul li#csshero-animator-trigger .animator-icon-wrap .animator-sha,
+#csshero-animator .list-wrap li,
+#csshero-animator .list-wrap{-webkit-transition: all 300ms ease;-moz-transition: all 300ms ease;-o-transition: all 300ms ease;transition: all 300ms ease;}
+
+/* SMALL RADII */
+#csshero-animator .render .render-li-actions > span,
+#csshero-animator .render > ul > li,
+#csshero-animator .chanimator_list-label,
+#csshero-animator input{border-radius:2px;}
+
+/* DARK TEXT SHADOWS */
+#csshero-animator .one .list-wrap li,
+#csshero-animator .render li > span{text-shadow:0px 1px 0px rgba(0,0,0,.6);}
+/* BOX SHADOWS */
+#csshero-animator .csshero-animator-service-overlay section .chani-actions span,
+#csshero-animator .render .render-li-actions > span,
+#csshero-animator .render > ul > li{box-shadow:0px 0px 5px rgba(0,0,0,.5),inset 0px 1px 0px 0px rgba(255, 255, 255, 0.09);}
+#csshero-animator .one .list-wrap li:after,
+#csshero-animator .chanimator_list-label,
+#csshero-animator input{box-shadow:0px 0px 5px rgba(0,0,0,1),inset 0px 1px 0px 0px rgba(255,255,255,.14);}
+
+/* TEXT SHADOWS */
+#csshero-animator .chanimator_list-label span{text-shadow:0px 1px 0px rgba(255,255,255,.2);font-weight:500;}
+
+/* ICON */
+#csshero-main-toolbar ul li#csshero-animator-trigger{background-image:none;position:relative;overflow:hidden;}
+#csshero-main-toolbar ul li#csshero-animator-trigger .animator-icon-wrap{position:absolute;width:100%;bottom:0;}
+#csshero-main-toolbar ul li#csshero-animator-trigger .animator-icon-wrap .animator-sha{top:-20px;position:absolute;opacity:0;background:#20242A;}
+#csshero-main-toolbar ul li#csshero-animator-trigger .animator-icon-wrap:hover .animator-icon{opacity:0;}
+#csshero-main-toolbar ul li#csshero-animator-trigger .animator-icon-wrap:hover .animator-sha{top:0px;opacity:1;}
+
+/* ACTIVE STATUSES */
+#csshero-animator .render-li-actions > span:active,
+#csshero-animator input[type="submit"]:active,
+#csshero-animator .chani-action:active{position:relative;top:1px;}
+
+
+.csshero-animator-on #wp-css-editor-startup, .csshero-animator-on #csshero-main-toolbar{display:none!important;}
+
+#csshero-animator .s4{text-align:right;}
+#csshero-animator .s4 input[type="submit"]{display:inline-block;width:120px;background:#448CDD;text-align:center;color:white;text-shadow: 0px 1px 1px rgba(0,0,0,.4);text-transform:capitalize;cursor:pointer;}
+#csshero-animator .s4 #csshero-animator-cancel{background:#636A6F;}
+
+#csshero-animator .csshero-animator-service-overlay{display:none;position:absolute;top:43px;left:0;background:#242A2E;z-index:88;width:120%;height:100%;overflow:scroll;overflow-y:auto;z-index:222;}
+#csshero-animator .csshero-animator-service-overlay section{padding: 0;margin:0;display:none;border:none;width:300px;}
+#csshero-animator .csshero-animator-service-overlay > div svg g *{fill:white;}
+
+
+#csshero-animator.toggled{min-height:500px;}
+
+#csshero-animator .csshero-animator-service-overlay section.loader{position:absolute;top:50%;transform: translateY(-100%);text-align:center;}
+#csshero-animator .csshero-animator-service-overlay section.loader{text-align:center;}
+#csshero-animator .csshero-animator-service-overlay section.clear_animation,
+#csshero-animator .csshero-animator-service-overlay section.quit{padding:20px;color:#eee;text-align:center;display:block;}
+#csshero-animator .csshero-animator-service-overlay section p{display:block;}
+#csshero-animator .chani-actions{margin-top:20px;display:block;}
+#csshero-animator .chani-actions span{display:inline-block;background:#636A6F;padding: 10px 20px;border-radius:3px;cursor:pointer;min-width:90px;text-align:center;}
+#csshero-animator .chani-actions span.chani-cancel{background:#3F484E;}
