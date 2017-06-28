@@ -227,9 +227,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Content\css-hero-animator\.DS_Store" />
     <Content Include="Content\css-hero-animator\assets\.DS_Store" />
-    <Content Include="Content\css-hero-animator\csshero-animator-main.php" />
     <None Include="Properties\PublishProfiles\DHI.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
