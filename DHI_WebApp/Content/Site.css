@@ -302,6 +302,11 @@ div.polaroidContainer {
     font-size: 25px;
 }
 
+.smallHeaderLogo {
+    display:none;
+}
+
+/*  990px  */
 @media screen and (max-width: 990px) {
     .contactDiv {
         min-height: 200px;
@@ -356,3 +361,23 @@ div.polaroidContainer {
     }
 }
 
+
+/*  767px  */
+@media screen and (max-width: 767px) {
+    .smallHeaderLogo {
+       width: 125px; 
+       position: absolute; 
+       left: 20px; 
+       padding-top:5px;
+       display: block;
+    }
+
+    .dhi_top {
+        display: none;
+    }
+
+    .subheader {
+        background-color: #c46200;
+        margin-top: -10px;
+    }
+}
