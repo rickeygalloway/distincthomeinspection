@@ -271,8 +271,6 @@ div.polaroidContainer {
 }
 
 
-
-
 .homeSlider {
    background-color: rgba(255,255,255, 0.8) ; 
     opacity: 0.8 !important; 
@@ -305,6 +303,52 @@ div.polaroidContainer {
 .smallHeaderLogo {
     display:none;
 }
+
+
+
+
+
+
+
+
+
+
+.homeBookSlider {
+    width: 55%; 
+    min-width:200px; 
+}
+
+
+.homeBookSlider h3 {
+    text-align: left; 
+    font-family: "Fjalla One";
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+.homeBookSliderDiv {
+	margin-top: 10px;
+	padding-top:10px; 
+	 background-color: rgba(0,0,0, 0.8) ; 
+    opacity: 0.8 !important; 
+	min-height: 150px
+}
+
+.homeBookSliderButton {
+	background-color:  #c46200;
+	text-align: center;
+	padding: 10px;
+}
+
+.homeBookSliderButton a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
 
 /*  990px  */
 @media screen and (max-width: 990px) {
@@ -359,6 +403,15 @@ div.polaroidContainer {
     .homeSlider {
         display: none;
     }
+
+	.homeBookSlider {
+        margin-top: -90px;
+		left: 10px;
+		position:absolute;
+    }
+	.homeBookSlider h3 {
+        font-size: 25px
+    }
 }
 
 
@@ -379,5 +432,9 @@ div.polaroidContainer {
     .subheader {
         background-color: #c46200;
         margin-top: -10px;
+    }
+
+	.homeBookSlider div {
+		position:absolute;
     }
 }
